@@ -9,7 +9,7 @@ export default function Index() {
         <ScrollView>
             <View style={{ flex: 1, justifyContent: "center", padding: 32, gap: 16}}>
 
-                <Image source="https://github.com/i-davies.png" style={{ width: 100, height: 100, borderRadius: 99}} />
+                <Image source="https://github.com/Leandr0-August0.png" style={{ width: 100, height: 100, borderRadius: 99}} />
 
                 <Text style={{ fontSize: 32 }}>Hello World</Text>
 
@@ -24,6 +24,10 @@ export default function Index() {
                 }/> */}
                 
                 <Card title="Buttons" body="Tipos de Botões" href={"/buttons"}></Card>
+                <Card title="Primeiro FlatList" body="FlatList example" href={"/flatlist_example"}></Card>
+                <Card title="FlatList com fetch" body="FlatList fetch" href={"/flatlist_fetch"}></Card>
+                <Card title="FlashList com fetch" body="FlashList fetch" href={"/flashlist"}></Card>
+                <Card title="Inputs" body="Teste com inputs" href={"/inputs"}></Card>
 
             </View>
         </ScrollView>
